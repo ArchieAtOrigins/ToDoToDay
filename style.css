@@ -1,0 +1,26 @@
+body {
+	background: #442222;
+	color: #fff;
+	font-family: "josefin sans", Arial, sans serif;
+}
+h1 {
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+}
+h2 {
+	margin: 5px;
+	padding: 5px;
+}
+label {
+	margin: 5px;
+	padding: 5px;
+}
+input {
+	margin: 5px;
+	padding: 5px;
+}
+#addButton {
+	margin: 5px;
+	padding: 5px;
+}
