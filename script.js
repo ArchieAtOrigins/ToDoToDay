@@ -16,30 +16,6 @@ var deleteButton;
 var todoList = document.getElementById("todoList");
 var doneDoin = document.getElementById("doneDoin");
 
-var newEl = function(todoInput) {
-	var newLi = document.createElement("li");
-	var newLabel = document.createElement("label"); 
-	var newTextBox = document.createElement("input"); //textbox
-	var newCheckbox = document.createElement("input"); //checkbox
-	var newButton = document.createElement("button");
-}
-
-addButton.addEventListener('click', createToDo);
-editButton.addEventListener('click', editToDo);
-deleteButton.addEventListener('click', deleteToDo);
-
-var createToDo = function() {
-	todoList.appendChild(newLi);
-	todoList.appendChild(newLabel);
-	todoList.appendChild(newTextBox);
-	todoList.appendChild(newCheckbox);
-	todoList.appendChild(newButton);
-	todoList.appendChild(newButton);
-
-	// ??  taskList.label = taskList.value;
-
-}
-
 var editToDo = function() {
 	// Edit ToDo
 	// When edit button is clicked, switch to edit mode
@@ -51,9 +27,37 @@ var deleteToDo = function() {
 }
 
 var doneToDo = function() {
+	console.log("doneToDo...");
 	// body...
 }
 
 var unDoToDo = function() {
 
 }
+
+var newEl = function() {
+	console.log(newLi)
+	var newLi = document.createElement("li");
+	var newLabel = document.createElement("label"); 
+	var newTextBox = document.createElement("input"); //textbox
+	var newCheckbox = document.createElement("input"); //checkbox
+	var editButton = document.createElement("button");
+	var deleteButton = document.createElement("button");
+
+	newTextBox.type = "text";
+	newCheckbox.type = "checkbox";
+
+	newLi.appendChild(newLabel);
+	newLi.appendChild(newTextBox);
+	newLi.appendChild(newCheckbox);
+	newLi.appendChild(editButton);
+	newLi.appendChild(deleteButton);
+
+
+	return newLi;
+}
+
+addButton.addEventListener('click', newEl);
+//editButton.addEventListener('click', editToDo);
+//deleteButton.addEventListener('click', deleteToDo);
+
