@@ -10,11 +10,8 @@
 
 var todoInput = document.getElementById("todoInput");
 var todoList = document.getElementById("todoList");
-var addButton = document.getElementById("addButton");
-var editButton;
-var deleteButton;
-var todoList = document.getElementById("todoList");
 var doneDoin = document.getElementById("doneDoin");
+var addButton = document.getElementById("addButton");
 
 var editToDo = function() {
 	// Edit ToDo
@@ -36,7 +33,7 @@ var unDoToDo = function() {
 }
 
 var newEl = function() {
-	console.log(newLi)
+	
 	var newLi = document.createElement("li");
 	var newLabel = document.createElement("label"); 
 	var newTextBox = document.createElement("input"); //textbox
@@ -53,6 +50,9 @@ var newEl = function() {
 	newLi.appendChild(editButton);
 	newLi.appendChild(deleteButton);
 
+	todoList.appendChild(newLi);
+
+	console.log(newLi);
 
 	return newLi;
 }
