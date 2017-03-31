@@ -1,24 +1,44 @@
 body {
-	background: #44eeee;
-	color: #aaa;
-	font-family: "josefin sans", Arial, sans serif;
-}
-h1 {
+	background: #885522;
+	color: ##fff;
+	font-family: 'Denk One', sans-serif;
 	margin: 0;
-	padding: 15px;
-	text-align: center;
+	padding: 0;
 }
-h2 {
+header {
+	background: #998866;
+	color: white;
+	border-bottom: 1px solid black;
+}
+section {
 	margin: 5px;
 	padding: 5px;
 }
-label {
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Denk One', sans-serif;
+	color: #fff;
+}
+h1 {
+	font-size: 3em;
+	margin: 0;
+	padding: 15px;
+	text-align: center;
+	text-shadow: 2px 2px 4px red;
+}
+h2 {
 	margin: 5px;
 	padding: 5px;
 }
 input {
 	margin: 5px;
 	padding: 5px;
+}
+button {
+	background: #369;
+	border-radius: 1px;
+	color: white;
+	min-height: 15px;
+	min-width: 15px;
 }
 #addButton {
 	margin: 5px;
