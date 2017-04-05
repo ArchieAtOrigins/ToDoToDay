@@ -1,5 +1,5 @@
 body {
-	background: #885522;
+	background: #fff;
 	color: ##fff;
 	font-family: 'Denk One', sans-serif;
 	margin: 0;
@@ -14,7 +14,7 @@ section {
 	margin: 5px;
 	padding: 5px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
 	font-family: 'Denk One', sans-serif;
 	color: #fff;
 }
@@ -26,6 +26,7 @@ h1 {
 	text-shadow: 2px 2px 4px red;
 }
 h2 {
+	color: #885522;
 	margin: 5px;
 	padding: 5px;
 }
@@ -34,7 +35,7 @@ input {
 	padding: 5px;
 }
 button {
-	background: #369;
+	background: #885522;
 	border-radius: 1px;
 	color: white;
 	min-height: 15px;
