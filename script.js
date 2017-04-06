@@ -2,15 +2,12 @@
 
 let addButton = document.getElementById("addButton");
 let addItem = document.getElementById('addItem');
-let newItem = addItem.value;
+// let newItem = addItem.value;
+// let secA = document.getElementById('sectionA');
+let list = document.querySelector('.list');
+let liChildren = list.children;
 
-//* Add listener to add button, create new item and add to list
-addButton.addEventListener('click',() => {
-	let tdList = document.getElementById('tdList');
-	let li = document.createElement('li');
-	li.textContent = addItem.value;
-	tdList.appendChild(li);
-});
+
 
 //* Create remove, up, down and edit buttons
 function createButtonSet(li) {
@@ -35,10 +32,25 @@ function createButtonSet(li) {
 	li.appendChild(removeButton);
 }
 
-//* Append to new items
-for(let i=0; i<tdList.length; i++) {
-	createButtonSet('');
+//* Iterate over li's and append buttons
+	for(let i=0; i<liChildren.length; i++) {
+		createButtonSet(liChildren[i]);
+		}
+//* Add listener to add button, create new item and add to list
+addButton.addEventListener('click',() => {
+	let tdList = document.getElementById('tdList');
+	let li = document.createElement('li');
+	li.textContent = addItem.value;
+	tdList.appendChild(li);
+	createButtonSet(li);
+	addItem.value = '';
 }
+);
+
+
+
+
+
 
 //* Move items to completed list
 //* Move items up or down
