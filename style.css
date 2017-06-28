@@ -3,17 +3,15 @@
   src: url(https://fonts.gstatic.com/s/denkone/v4/CkjtBkW4UXW3-ecY_gluSXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
 }
 body {
-	background: #fff;
 	font-family: 'Denk One', sans-serif;
 	margin: 0;
 }
 * {
 	outline: none;
 	box-shadow: none;
-	-webkit-box-shadow: none;
 }
 input {
-	border: 1px #986 solid;
+	border: 1px #852 solid;
 	border-radius: 0;
 }
 header {
@@ -23,21 +21,17 @@ header {
 	-webkit-user-select: none;
 }
 header, button { color: #fff }
-section {
-	margin: 5px;
-	padding: 5px;
-}
+section { padding: 10px }
 h1 {
 	font-size: 3em;
 	margin: 0;
 	padding: 15px;
 	text-align: center;
-	text-shadow: 2px 2px 4px #f00;
+	text-shadow: 2px 2px 4px #852;
 }
 h2 {
 	color: #852;
 	margin: 5px;
-	padding: 5px;
 }
 input, #addButton {
 	margin: 5px;
@@ -47,7 +41,7 @@ input, #addButton {
 }
 button {
 	background: #852;
-	border-radius: 1px;
+	border-radius: 0;
 	min-height: 20px;
 	min-width: 70px;
 	margin: 0 2px;
