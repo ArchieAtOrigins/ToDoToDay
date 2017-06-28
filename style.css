@@ -45,3 +45,9 @@ button {
 	margin: 0 2px;
 	border: 1px #000 solid
 }
+label {
+	margin-right: 10px;
+	max-width: 100px;
+	min-width: 100px;
+	display: inline-block;
+}
