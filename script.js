@@ -34,7 +34,10 @@ for (let i=0; i<liChildren.length; i++) createButtonSet(liChildren[i]);
 addButton.addEventListener('click',() => {
 	let tdList = document.getElementById('tdList');
 	let li = document.createElement('li');
-	li.textContent = addItem.value;
+	let label = document.createElement('label');
+	label.textContent = addItem.value;
+	label.setAttribute('contenteditable', 'true');
+	li.appendChild(label);
 	tdList.appendChild(li);
 	createButtonSet(li);
 	addItem.value = '';
