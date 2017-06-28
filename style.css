@@ -6,15 +6,19 @@ body {
 * {
 	outline: none;
 	box-shadow: none;
+	-webkit-box-shadow: none;
 }
-input { border: 1px #986 solid }
+input {
+	border: 1px #986 solid;
+	border-radius: 0;
+}
 header {
 	background: #986;
-	color: #fff;
 	border-bottom: 1px solid #000;
 	user-select: none;
 	-webkit-user-select: none;
 }
+header, button { color: #fff }
 section {
 	margin: 5px;
 	padding: 5px;
@@ -35,15 +39,16 @@ input, #addButton {
 	margin: 5px;
 	padding: 10px;
 	font-size: 14px;
+		
 }
 button {
 	background: #852;
 	border-radius: 1px;
-	color: #fff;
 	min-height: 20px;
 	min-width: 70px;
 	margin: 0 2px;
 	border: 1px #000 solid
+		
 }
 label {
 	margin-right: 10px;
