@@ -40,5 +40,4 @@ addButton.addEventListener('click',() => {
 	tdList.appendChild(li);
 	createButtonSet(li);
 	addItem.value = '';
-}
-);
+});
