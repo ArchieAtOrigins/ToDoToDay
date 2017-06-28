@@ -26,8 +26,6 @@ function createButtonSet(li) {
 	li.appendChild(removeButton);
 }
 
-//* Iterate over li's and append buttons
-for (let i=0; i<liChildren.length; i++) createButtonSet(liChildren[i]);
 //* Add listener to add button, create new item and add to list
 addButton.addEventListener('click',() => {
 	if (addItem.value == "") return;
