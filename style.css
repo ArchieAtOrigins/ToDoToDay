@@ -6,7 +6,7 @@ body {
 	padding: 0;
 }
 header {
-	background: #998866;
+	background: #986;
 	color: white;
 	border-bottom: 1px solid black;
 	user-select: none;
@@ -38,7 +38,7 @@ input {
 	padding: 5px;
 }
 button {
-	background: #885522;
+	background: #852;
 	border-radius: 1px;
 	color: white;
 	min-height: 15px;
