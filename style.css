@@ -1,9 +1,9 @@
 @font-face {
-  font-family: 'Denk One';
+  font-family: font;
   src: url(https://fonts.gstatic.com/s/denkone/v4/CkjtBkW4UXW3-ecY_gluSXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
 }
 body {
-	font-family: 'Denk One', sans-serif;
+	font-family: font, sans-serif;
 	margin: 0;
 }
 * {
