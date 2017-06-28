@@ -1,13 +1,9 @@
-//* 
-
 let addButton = document.getElementById("addButton");
 let addItem = document.getElementById('addItem');
 // let newItem = addItem.value;
 // let secA = document.getElementById('sectionA');
 let list = document.querySelector('.list');
 let liChildren = list.children;
-
-
 
 //* Create remove, up, down and edit buttons
 function createButtonSet(li) {
@@ -33,9 +29,9 @@ function createButtonSet(li) {
 }
 
 //* Iterate over li's and append buttons
-	for(let i=0; i<liChildren.length; i++) {
-		createButtonSet(liChildren[i]);
-		}
+for (let i=0; i<liChildren.length; i++) {
+	createButtonSet(liChildren[i]);
+}
 //* Add listener to add button, create new item and add to list
 addButton.addEventListener('click',() => {
 	let tdList = document.getElementById('tdList');
@@ -46,18 +42,3 @@ addButton.addEventListener('click',() => {
 	addItem.value = '';
 }
 );
-
-
-
-
-
-
-//* Move items to completed list
-//* Move items up or down
-//* Edit items
-//* 
-
-//* Hide or Show lists
-
-
-
