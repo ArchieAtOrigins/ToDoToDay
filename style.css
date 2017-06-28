@@ -4,6 +4,12 @@ body {
 	margin: 0;
 	padding: 0;
 }
+* {
+	outline: none;
+	box-shadow: none;
+}
+input { border: 1px #986 solid }
+button { -webkit-appearance: none }
 header {
 	background: #986;
 	color: #fff;
