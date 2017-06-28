@@ -29,9 +29,7 @@ function createButtonSet(li) {
 }
 
 //* Iterate over li's and append buttons
-for (let i=0; i<liChildren.length; i++) {
-	createButtonSet(liChildren[i]);
-}
+for (let i=0; i<liChildren.length; i++) createButtonSet(liChildren[i]);
 //* Add listener to add button, create new item and add to list
 addButton.addEventListener('click',() => {
 	let tdList = document.getElementById('tdList');
