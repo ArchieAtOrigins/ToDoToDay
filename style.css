@@ -2,7 +2,6 @@ body {
 	background: #fff;
 	font-family: 'Denk One', sans-serif;
 	margin: 0;
-	padding: 0;
 }
 * {
 	outline: none;
@@ -15,7 +14,6 @@ header {
 	border-bottom: 1px solid #000;
 	user-select: none;
 	-webkit-user-select: none;
-	-moz-user-select: none;
 }
 section {
 	margin: 5px;
@@ -33,19 +31,17 @@ h2 {
 	margin: 5px;
 	padding: 5px;
 }
-input {
+input, #addButton {
 	margin: 5px;
-	padding: 5px;
+	padding: 10px;
+	font-size: 14px;
 }
 button {
 	background: #852;
 	border-radius: 1px;
 	color: #fff;
-	min-height: 15px;
-	min-width: 15px;
-	margin: 0 2px
-}
-#addButton {
-	margin: 5px;
-	padding: 5px;
+	min-height: 20px;
+	min-width: 70px;
+	margin: 0 2px;
+	border: 1px #000 solid
 }
