@@ -1,6 +1,6 @@
 let addButton = document.getElementById("addButton");
 let addItem = document.getElementById('addItem');
-let list = document.querySelector('.list');
+let list = document.etElementById('tdList');
 let liChildren = list.children;
 
 //* Create remove, up, down and edit buttons
