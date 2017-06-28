@@ -46,9 +46,7 @@ addButton.addEventListener('click',() => {
 
 document.getElementById("addItem").addEventListener("keyup", function(e) {
     e.preventDefault();
-    if (e.keyCode == 13 || e.which == 13) {
-        document.getElementById("addButton").click();
-    }
+    if (e.keyCode == 13 || e.which == 13) document.getElementById("addButton").click();
 });
 
 window.addEventListener('load', function(){
