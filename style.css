@@ -9,7 +9,6 @@ body {
 	box-shadow: none;
 }
 input { border: 1px #986 solid }
-button { -webkit-appearance: none }
 header {
 	background: #986;
 	color: #fff;
@@ -44,6 +43,7 @@ button {
 	color: #fff;
 	min-height: 15px;
 	min-width: 15px;
+	margin: 0 2px
 }
 #addButton {
 	margin: 5px;
