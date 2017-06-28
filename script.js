@@ -42,3 +42,10 @@ addButton.addEventListener('click',() => {
 	createButtonSet(li);
 	addItem.value = '';
 });
+
+document.getElementById("addItem").addEventListener("keyup", function(e) {
+    e.preventDefault();
+    if (e.keyCode == 13 || e.which == 13) {
+        document.getElementById("addButton").click();
+    }
+});
