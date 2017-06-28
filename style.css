@@ -1,47 +1,58 @@
+@font-face {
+  font-family: font;
+  src: url(https://fonts.gstatic.com/s/denkone/v4/CkjtBkW4UXW3-ecY_gluSXYhjbSpvc47ee6xR_80Hnw.woff2) format('woff2');
+}
 body {
-	background: #fff;
-	color: ##fff;
-	font-family: 'Denk One', sans-serif;
+	font-family: font, sans-serif;
 	margin: 0;
-	padding: 0;
+}
+* {
+	outline: none;
+	box-shadow: none;
+}
+input {
+	border: 1px #852 solid;
+	border-radius: 0;
 }
 header {
-	background: #998866;
-	color: white;
-	border-bottom: 1px solid black;
+	background: #986;
+	border-bottom: 1px solid #000;
+	user-select: none;
+	-webkit-user-select: none;
 }
-section {
-	margin: 5px;
-	padding: 5px;
-}
-h1, h3, h4, h5, h6 {
-	font-family: 'Denk One', sans-serif;
-	color: #fff;
-}
+header, button { color: #fff }
+section { padding: 10px }
 h1 {
 	font-size: 3em;
 	margin: 0;
 	padding: 15px;
 	text-align: center;
-	text-shadow: 2px 2px 4px red;
+	text-shadow: 2px 2px 4px #852;
 }
 h2 {
-	color: #885522;
+	color: #852;
 	margin: 5px;
-	padding: 5px;
 }
-input {
+input, #addButton {
 	margin: 5px;
-	padding: 5px;
+	padding: 10px;
+	font-size: 14px;
+		
 }
 button {
-	background: #885522;
-	border-radius: 1px;
-	color: white;
-	min-height: 15px;
-	min-width: 15px;
+	background: #852;
+	border-radius: 0;
+	min-height: 20px;
+	min-width: 70px;
+	margin: 2px;
+	border: 1px #000 solid
+		
 }
-#addButton {
-	margin: 5px;
-	padding: 5px;
+label {
+	margin-right: 10px;
+	max-width: 100px;
+	min-width: 100px;
+	display: inline-block;
+	word-wrap: break-word;
 }
+label,li button { vertical-align: top }
