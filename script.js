@@ -50,6 +50,7 @@ document.getElementById("addItem").addEventListener("keyup", function(e) {
         document.getElementById("addButton").click();
     }
 });
+
 window.addEventListener('load', function(){
 	for (i = 0; i < localStorage.todoLength; i++) {
 		let tdList = document.getElementById('tdList');
