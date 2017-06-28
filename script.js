@@ -1,7 +1,5 @@
 let addButton = document.getElementById("addButton");
 let addItem = document.getElementById('addItem');
-// let newItem = addItem.value;
-// let secA = document.getElementById('sectionA');
 let list = document.querySelector('.list');
 let liChildren = list.children;
 
