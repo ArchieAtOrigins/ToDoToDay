@@ -9,6 +9,9 @@ header {
 	background: #998866;
 	color: white;
 	border-bottom: 1px solid black;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
 }
 section {
 	margin: 5px;
